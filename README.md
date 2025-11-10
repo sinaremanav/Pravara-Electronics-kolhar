@@ -1,2 +1,1 @@
-# Pravara-Electronics-kolhar
-website of store
+# Pravara-Electronics
