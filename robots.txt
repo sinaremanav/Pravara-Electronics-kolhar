@@ -1,4 +1,15 @@
-User-agent: *
-Disallow:
+# robots.txt for Pravara Electronics
+# Allow all crawlers to access the site
 
-Sitemap: https://yourdomain.com/sitemap.xml
+User-agent: *
+Allow: /
+
+# Disallow crawling of any admin or private directories (if they exist)
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://sinaremanav.github.io/Pravara_Electronics_kolhar/sitemap.xml
+
+# Crawl-delay (optional, helps prevent server overload)
+Crawl-delay: 1
